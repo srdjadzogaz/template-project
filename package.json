@@ -1,7 +1,7 @@
 {
-    "name": "pfizer-tests-uvc",
+    "name": "start-up-project",
     "version": "1.0.0",
-    "description": "Tests for pfizer-uvc-project",
+    "description": "Start-up test project",
     "main": "index.js",
     "scripts": {
         "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx --max-warnings 0 && stylelint '{src,styles}/**/*.scss' --max-warnings 0 && next lint",

@@ -1,0 +1,17 @@
+{
+    "name": "pfizer-tests-uvc",
+    "version": "1.0.0",
+    "description": "Tests for pfizer-uvc-project",
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx --max-warnings 0 && stylelint '{src,styles}/**/*.scss' --max-warnings 0 && next lint",
+        "format": "npx prettier --write ."
+    },
+    "author": "Srdja Dzogaz",
+    "license": "ISC",
+    "dependencies": {
+        "eslint": "^8.46.0",
+        "prettier": "^3.0.1",
+        "prettier-plugin-gherkin": "^1.1.1"
+    }
+}

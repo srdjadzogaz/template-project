@@ -1,0 +1,9 @@
+{
+    "arrowParens": "avoid",
+    "printWidth": 100,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "tabWidth": 4,
+    "plugins": ["./node_modules/prettier-plugin-gherkin/dist/index.js"]
+}

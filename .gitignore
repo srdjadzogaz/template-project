@@ -1,0 +1,43 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# editor config
+.vscode
+
+# next.js
+/.next/
+/out/
+
+# dependencies
+/node_modules
+wdio/node_modules
+
+# production
+/build
+
+# misc
+.DS_Store
+.env
+
+npm-debug.log*
+package-lock.json
+yarn-debug.log*
+yarn-error.log*
+
+# Storybook
+/storybook-static
+.idea
+
+# Test screenshots
+/wdio/webdriverio/failed-screenshots/*.png
+/wdio/screenshots/
+
+# Ally reports
+/wdio/webdriverio/axe-results
+
+# Test reports
+/wdio/allure-results
+/wdio/allure-report
+
+# Netlify build
+out_*
+/.netlify/
